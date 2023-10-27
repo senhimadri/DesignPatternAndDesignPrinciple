@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OCP_ClassLibrary_IamTimCorey.OptimizedCode.Applicants;
 
-namespace OCP_ClassLibrary_IamTimCorey.OptimizedCode;
+namespace OCP_ClassLibrary_IamTimCorey.OptimizedCode.Accounts;
 
 public class Accounts : IAccounts
 {

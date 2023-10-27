@@ -1,4 +1,6 @@
 ﻿using OCP_ClassLibrary_IamTimCorey.OptimizedCode;
+using OCP_ClassLibrary_IamTimCorey.OptimizedCode.Accounts;
+using OCP_ClassLibrary_IamTimCorey.OptimizedCode.Applicants;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,11 +13,11 @@ public class OptimizedCode
 {
     public static void Implementation()
     {
-        List<PersonModel> applicants = new List<PersonModel>()
+        List<IApplicantModel> applicants = new List<IApplicantModel>()
         {
             new PersonModel { FirstName = "Himadri" , LastName = "Sen"},
-            new PersonModel { FirstName = "Shohan", LastName = "Ahamed" },
-            new PersonModel { FirstName = "Emon", LastName = "Khan" }
+            new ManagerModel { FirstName = "Shohan", LastName = "Ahamed" },
+            new ExecutiveModel { FirstName = "Emon", LastName = "Khan" }
         };
 
         List<EmployeeModel> employees = new List<EmployeeModel>();
