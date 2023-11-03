@@ -9,7 +9,7 @@ namespace LSP_Demo_IamTimCorey.OrginalCode;
 
 public class OrginalCode
 {
-    public void Implementation()
+    public static void Implementation()
     {
         Manager accountingVP = new Manager();
 
@@ -19,7 +19,7 @@ public class OrginalCode
         accountingVP.CalculatePerHourRate(4);
 
 
-        Employee emp = new Employee();
+        Employee emp = new CEO();
 
         emp.FirstName = "Himadri";
         emp.LastName = "Sen";
@@ -29,6 +29,8 @@ public class OrginalCode
 
 
         Console.WriteLine($"{emp.FirstName}'s salary is ${emp.Salary}/Hour.");
+
+        Console.ReadLine();
 
     }
 
