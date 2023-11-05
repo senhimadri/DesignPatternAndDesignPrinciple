@@ -11,7 +11,8 @@ public class OptimizedCode
 {
     public static void Implementation()
     {
-        Manager accountingVP = new Manager();
+        IManager accountingVP = new CEO();
+        //IManaged accountingVP = new CEO();
 
         accountingVP.FirstName = "Emon";
         accountingVP.LastName = "Sheck";
@@ -19,7 +20,9 @@ public class OptimizedCode
         accountingVP.CalculatePerHourRate(4);
 
 
-        Employee emp = new CEO();
+        IManaged emp = new Manager();
+        //BaseEmployee emp = new Employee();
+        //BaseEmployee emp = new CEO();
 
         emp.FirstName = "Himadri";
         emp.LastName = "Sen";

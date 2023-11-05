@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LSP_ClassLibrary_IamTimCorey.OptimizedCode;
 
-public class BaseEmployee : IEmployee
+public abstract class BaseEmployee : IEmployee
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }
