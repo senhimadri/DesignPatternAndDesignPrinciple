@@ -8,6 +8,6 @@ namespace SRP_Demo_IamTimCorey.OrginalCode;
 
 internal class Person
 {
-    public string FirstName { get; set; }  = string.Empty;
-    public string LastName { get; set; } = string.Empty;
+    public string? FirstName { get; set; } 
+    public string? LastName { get; set; }
 }

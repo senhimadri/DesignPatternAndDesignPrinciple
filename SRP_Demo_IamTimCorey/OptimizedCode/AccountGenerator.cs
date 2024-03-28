@@ -11,7 +11,7 @@ internal class AccountGenerator
 {
     public static void CreateAccount(Person person)
     {
-        Console.WriteLine($"Your username is {person.FirstName.Substring(0, 1)} {person.LastName}");
+        Console.WriteLine($"Your username is {person.FirstName??string.Empty.Substring(0, 1)} {person.LastName}");
 
     }
 }
