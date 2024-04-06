@@ -23,7 +23,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonDesignPattern", "S
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SDPbyCSharpCorner", "SDPbyCSharpCorner", "{4401B598-88E4-40C2-B607-BD8CD27FBC75}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDPbyCSharpCorner", "SDPbyCSharpCorner\SDPbyCSharpCorner.csproj", "{8F2F77EA-CF24-44C3-926B-77B32543F403}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDPbyCSharpCorner", "SDPbyCSharpCorner\SDPbyCSharpCorner.csproj", "{8F2F77EA-CF24-44C3-926B-77B32543F403}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SRPbyIamTimCorey", "SRPbyIamTimCorey", "{059B23CF-455A-47A9-B895-693DB70A3706}"
 EndProject
@@ -33,7 +33,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LSPbyIamTimCorey", "LSPbyIa
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPattern", "DesignPattern", "{7AC658A1-0BEE-44F9-B42E-A66F8FB73F97}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPrinciples", "DesignPrinciples", "{43F8C9F6-A007-4A2F-BD8F-F678A9F239A7}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPrinciple", "DesignPrinciple", "{43F8C9F6-A007-4A2F-BD8F-F678A9F239A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
