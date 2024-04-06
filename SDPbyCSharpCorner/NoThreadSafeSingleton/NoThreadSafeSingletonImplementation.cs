@@ -1,13 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics.Contracts;
-using System.Linq;
-using System.Runtime.Intrinsics.Arm;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-
-namespace SDPbyCSharpCorner.NoThreadSafeSingleton;
+﻿namespace SDPbyCSharpCorner.NoThreadSafeSingleton;
 internal class NoThreadSafeSingletonImplementation
 {
     NoThreadSafeSingletonClass singleton = NoThreadSafeSingletonClass.Instance;
