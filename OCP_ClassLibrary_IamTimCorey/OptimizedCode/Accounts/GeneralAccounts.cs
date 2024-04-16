@@ -7,7 +7,7 @@ using OCP_ClassLibrary_IamTimCorey.OptimizedCode.Applicants;
 
 namespace OCP_ClassLibrary_IamTimCorey.OptimizedCode.Accounts;
 
-public class Accounts : IAccounts
+public class GeneralAccounts : IAccounts
 {
     public EmployeeModel Create(IApplicantModel person)
     {

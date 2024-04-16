@@ -1,11 +1,6 @@
 ﻿using OCP_ClassLibrary_IamTimCorey.OptimizedCode;
 using OCP_ClassLibrary_IamTimCorey.OptimizedCode.Accounts;
 using OCP_ClassLibrary_IamTimCorey.OptimizedCode.Applicants;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OCP_Demo_IamTimCorey.OptimizedCode;
 
@@ -15,14 +10,13 @@ public class OptimizedCode
     {
         List<IApplicantModel> applicants = new List<IApplicantModel>()
         {
-            new PersonModel { FirstName = "Himadri" , LastName = "Sen"},
+            new PersonModel { FirstName = "Himadri", LastName = "Sen"},
             new ManagerModel { FirstName = "Shohan", LastName = "Ahamed" },
             new ExecutiveModel { FirstName = "Emon", LastName = "Khan" }
         };
 
         List<EmployeeModel> employees = new List<EmployeeModel>();
 
-        Accounts accountProcessor = new Accounts();
 
         foreach (var per in applicants)
         {

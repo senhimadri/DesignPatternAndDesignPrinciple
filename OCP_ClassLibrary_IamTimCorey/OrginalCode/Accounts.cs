@@ -34,7 +34,5 @@ public class Accounts
         }
 
         return output;
-
-        return output;
     }
 }
