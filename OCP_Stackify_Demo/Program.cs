@@ -1,4 +1,4 @@
-﻿using OCP_Stackify_Demo;
+﻿using CoffeeMachine;
 
 Dictionary<CoffeeSelection, GroundCoffee> beans = new Dictionary<CoffeeSelection, GroundCoffee>();
 beans.Add(CoffeeSelection.FILTER_COFFEE, new GroundCoffee("My Favorite coffee bean", 100));

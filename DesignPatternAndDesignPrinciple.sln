@@ -35,7 +35,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPrinciple", "DesignPr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OCPbyStackify", "OCPbyStackify", "{78A181EE-6486-4634-84A0-715D208CA08B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OCP_Stackify_Demo", "OCP_Stackify_Demo\OCP_Stackify_Demo.csproj", "{EE4E79A8-4979-48AB-9291-E1F4EB30C170}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeMachine", "OCP_Stackify_Demo\CoffeeMachine.csproj", "{EE4E79A8-4979-48AB-9291-E1F4EB30C170}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

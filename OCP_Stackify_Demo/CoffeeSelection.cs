@@ -1,4 +1,4 @@
-﻿namespace OCP_Stackify_Demo;
+﻿namespace CoffeeMachine;
 
 public class CoffeeSelection
 {
