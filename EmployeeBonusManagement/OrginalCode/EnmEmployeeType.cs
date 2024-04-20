@@ -1,4 +1,4 @@
-﻿namespace EmployeeBonusManagement;
+﻿namespace EmployeeBonusManagement.OrginalCode;
 
 public enum EnmEmployeeType
 {

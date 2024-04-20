@@ -1,5 +1,6 @@
 ﻿using EmployeeBonusManagement;
 
-Implementation implementation = new Implementation();
+Implementation _implementation = new Implementation();
 
-implementation.OrginalExecute();
+_implementation.OrginalExecute();
+_implementation.OptimizedCodeUsingDerivedClass();
