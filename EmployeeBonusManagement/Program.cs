@@ -2,5 +2,6 @@
 
 Implementation _implementation = new Implementation();
 
-_implementation.OrginalExecute();
-_implementation.OptimizedCodeUsingDerivedClass();
+//_implementation.OrginalExecute();
+//_implementation.OptimizedCodeUsingDerivedClass();
+_implementation.OptimizedCodeUsingInterface();
