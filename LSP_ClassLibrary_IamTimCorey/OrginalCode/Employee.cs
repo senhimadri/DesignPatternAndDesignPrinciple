@@ -8,9 +8,9 @@ namespace LSP_ClassLibrary_IamTimCorey.OrginalCode;
 
 public class Employee
 {
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-    public Employee Manager { get; set; }
+    public string? FirstName { get; set; }
+    public string? LastName { get; set; }
+    public Employee? Manager { get; set; }
     public decimal Salary { get; set; }
 
     public virtual void AssignManager(Employee manager)

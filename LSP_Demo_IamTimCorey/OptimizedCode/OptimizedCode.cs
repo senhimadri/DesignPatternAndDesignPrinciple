@@ -11,9 +11,8 @@ public class OptimizedCode
 {
     public static void Implementation()
     {
-        IManager accountingVP = new CEO();
-        //IManaged accountingVP = new CEO();
-
+        IManager accountingVP = new Manager();
+       
         accountingVP.FirstName = "Emon";
         accountingVP.LastName = "Sheck";
 
@@ -21,8 +20,6 @@ public class OptimizedCode
 
 
         IManaged emp = new Manager();
-        //BaseEmployee emp = new Employee();
-        //BaseEmployee emp = new CEO();
 
         emp.FirstName = "Himadri";
         emp.LastName = "Sen";
@@ -36,3 +33,4 @@ public class OptimizedCode
         Console.ReadLine();
 
     }
+}

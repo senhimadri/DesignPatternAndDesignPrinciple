@@ -39,7 +39,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeMachine", "OCP_Stacki
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OCPbyKudvenkat", "OCPbyKudvenkat", "{3C2B59C9-A71D-443B-91C8-C77FF55EBCC1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeBonusManagement", "EmployeeBonusManagement\EmployeeBonusManagement.csproj", "{5D54E78E-750B-4F11-A8D5-D113AB79FF11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeBonusManagement", "EmployeeBonusManagement\EmployeeBonusManagement.csproj", "{5D54E78E-750B-4F11-A8D5-D113AB79FF11}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LSPbyKudvenkat", "LSPbyKudvenkat", "{94BEFB83-838A-4529-8D97-D9DF66010345}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeBonusManagementLSP", "EmployeeBonusManagementLSP\EmployeeBonusManagementLSP.csproj", "{5AFB7DB3-64D3-4688-AB2F-52B1DFBA48F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +83,10 @@ Global
 		{5D54E78E-750B-4F11-A8D5-D113AB79FF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D54E78E-750B-4F11-A8D5-D113AB79FF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D54E78E-750B-4F11-A8D5-D113AB79FF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AFB7DB3-64D3-4688-AB2F-52B1DFBA48F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AFB7DB3-64D3-4688-AB2F-52B1DFBA48F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AFB7DB3-64D3-4688-AB2F-52B1DFBA48F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AFB7DB3-64D3-4688-AB2F-52B1DFBA48F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -101,6 +109,8 @@ Global
 		{EE4E79A8-4979-48AB-9291-E1F4EB30C170} = {78A181EE-6486-4634-84A0-715D208CA08B}
 		{3C2B59C9-A71D-443B-91C8-C77FF55EBCC1} = {217E2341-9D1E-43CD-8847-3970E5EEBAF3}
 		{5D54E78E-750B-4F11-A8D5-D113AB79FF11} = {3C2B59C9-A71D-443B-91C8-C77FF55EBCC1}
+		{94BEFB83-838A-4529-8D97-D9DF66010345} = {1073E03B-456D-4EC3-AAE3-CC6941C1FA60}
+		{5AFB7DB3-64D3-4688-AB2F-52B1DFBA48F1} = {94BEFB83-838A-4529-8D97-D9DF66010345}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CE47711-CCDA-4031-8547-4280B207F242}
