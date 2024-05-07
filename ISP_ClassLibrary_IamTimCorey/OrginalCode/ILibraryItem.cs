@@ -1,4 +1,4 @@
-﻿namespace ISP_Demo_IAmTimCorey.OrginalCode;
+﻿namespace ISP_ClassLibrary_IamTimCorey.OrginalCode;
 
 internal interface ILibraryItem
 {

@@ -1,6 +1,6 @@
-﻿namespace ISP_Demo_IAmTimCorey.OrginalCode;
+﻿namespace ISP_Demo_IAmTimCorey.OptimizedCode;
 
-public class DVD : ILibraryItem
+public class AudioBook : ILibraryItem
 {
     public string Author { get; set; }
     public DateTime BorrowDate { get; set; }
@@ -10,17 +10,15 @@ public class DVD : ILibraryItem
     public int Pages { get; set; } = -1;
     public string Title { get; set; }
 
-    public List<string> Actors { get; set; }
-    public int RunTimeInMinutes { get; set; }
-
     public void CheckIn()
     {
-        throw new NotImplementedException();
+        Borrower = string.Empty;
     }
 
     public void CheckOut(string borrower)
     {
-        throw new NotImplementedException();
+        Borrower = borrower;
+        BorrowDate = DateTime.Now;
     }
 
     public DateTime GetDueTime()

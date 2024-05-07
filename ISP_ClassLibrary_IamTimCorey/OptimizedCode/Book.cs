@@ -1,5 +1,5 @@
 ﻿
-namespace ISP_Demo_IAmTimCorey.OrginalCode;
+namespace ISP_Demo_IAmTimCorey.OptimizedCode;
 
 public class Book : ILibraryItem
 {
