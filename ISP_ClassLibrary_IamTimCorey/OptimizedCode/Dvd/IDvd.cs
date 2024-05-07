@@ -1,4 +1,6 @@
-﻿namespace ISP_Demo_IAmTimCorey.OptimizedCode;
+﻿using ISP_ClassLibrary_IamTimCorey.OptimizedCode.GeneralInterface;
+
+namespace ISP_ClassLibrary_IamTimCorey.OptimizedCode.Dvd;
 
 public interface IDvd : ILibraryItem
 {

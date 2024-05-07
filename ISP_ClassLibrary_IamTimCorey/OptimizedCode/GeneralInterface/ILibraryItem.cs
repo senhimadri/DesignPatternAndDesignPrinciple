@@ -1,4 +1,4 @@
-﻿namespace ISP_Demo_IAmTimCorey.OptimizedCode;
+﻿namespace ISP_ClassLibrary_IamTimCorey.OptimizedCode.GeneralInterface;
 
 public interface ILibraryItem
 {

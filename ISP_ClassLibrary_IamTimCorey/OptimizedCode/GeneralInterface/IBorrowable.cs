@@ -1,6 +1,6 @@
-﻿namespace ISP_Demo_IAmTimCorey.OptimizedCode;
+﻿namespace ISP_ClassLibrary_IamTimCorey.OptimizedCode.GeneralInterface;
 
-public interface IBorrowable 
+public interface IBorrowable
 {
     public DateTime BorrowDate { get; set; }
     public string Borrower { get; set; }
