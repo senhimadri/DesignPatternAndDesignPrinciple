@@ -1,31 +1,33 @@
 ﻿namespace DIP_ClassLibrary_IamTimCorey.OptimizedCode;
 
-public class Chore
+public class Chore : IChore
 {
+    private ILogger _logger;
+    private IMessageSender _messageSender;
     public string? ChoreName { get; set; }
     public IPerson? Owner { get; set; }
 
     public double HoursWorked { get; set; }
     public bool IsComplete { get; set; }
 
+    public Chore(ILogger logger, IMessageSender messageSender)
+    {
+        _logger = logger;
+        _messageSender = messageSender;
+    }
+
     public void PerformedWork(double hours)
     {
         HoursWorked += hours;
-        Logger log = new Logger();
-
-        log.Log($"Completed { ChoreName }");
+        _logger.Log($"Completed {ChoreName}");
     }
 
     public void CompleteChore()
     {
         IsComplete = true;
-        Logger log = new Logger();
+        _logger.Log($"Completed {ChoreName}");
 
-        log.Log($"Completed {ChoreName}");
-
-        Emailer emailer = new Emailer();
-
-        emailer.SendEmail(Owner!,$"The chore {ChoreName} is completed.");
+        _messageSender.SendMessage(Owner!, $"The chore {ChoreName} is completed.");
 
     }
 }
