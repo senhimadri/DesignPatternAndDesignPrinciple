@@ -8,10 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="OptimizedCode\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DIP_ClassLibrary_IamTimCorey\DIP_ClassLibrary_IamTimCorey.csproj" />
   </ItemGroup>
 
