@@ -10,9 +10,9 @@ public class OptimizedCode
     {
         List<IApplicantModel> applicants = new List<IApplicantModel>()
         {
-            new PersonModel { FirstName = "Himadri", LastName = "Sen"},
-            new ManagerModel { FirstName = "Shohan", LastName = "Ahamed" },
-            new ExecutiveModel { FirstName = "Emon", LastName = "Khan" }
+            new PersonModel     { FirstName = "Himadri",    LastName = "Sen"    },
+            new ManagerModel    { FirstName = "Shohan",     LastName = "Ahamed" },
+            new ExecutiveModel  { FirstName = "Emon",       LastName = "Khan"   }
         };
 
         List<EmployeeModel> employees = new List<EmployeeModel>();
