@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LSP_ClassLibrary_IamTimCorey.OptimizedCode;
 
-public class Manager : Employee,IManager
+public class Manager : GeneralEmployee,IManager
 {
     public override void CalculatePerHourRate(int rank)
     {
