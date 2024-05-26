@@ -16,11 +16,6 @@ public class Accounts
         output.LastName = person.LastName;
         output.EmailAddress = $"{person.FirstName.Substring(0,1)}{person.LastName}@acme.com";
 
-        //if (person.TypeofEmployee == EmployeeType.Manager)
-        //{
-        //    output.IsManager = true;
-        //}
-
         switch (person.TypeofEmployee)
         {
             case EmployeeType.Staff:

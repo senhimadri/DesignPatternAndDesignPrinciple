@@ -19,13 +19,10 @@ public class OrginalEmployee
     public decimal CalculateBonus()
     {
         if (EmployeeType == EnmEmployeeType.Permanent)
-        {
             return (Salary * .1M);
-        }
+
         else 
-        {
             return (Salary * .5M);
-        }
         
     }
 
