@@ -4,7 +4,7 @@ namespace FDPby_campbelltech.Extension;
 
 public class PaymentFactory
 {
-    public static IPayment create(PaymentMethods paymentMethod)
+    public static IPayment Create(PaymentMethods paymentMethod)
     {
         switch (paymentMethod)
         {
