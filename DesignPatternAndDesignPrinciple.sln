@@ -65,9 +65,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryDesignPattern", "Fac
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FDPbyIamTimCorey", "FDPbyIamTimCorey", "{E64B3482-BCF0-47B0-A8A5-FAE420BEA8C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternbyIAmTimCorey", "FactoryPatternbyIAmTimCorey\FactoryPatternbyIAmTimCorey.csproj", "{95972696-3F2C-460E-B255-A6FEDA83FC1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPatternbyIAmTimCorey", "FactoryPatternbyIAmTimCorey\FactoryPatternbyIAmTimCorey.csproj", "{95972696-3F2C-460E-B255-A6FEDA83FC1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternWebAPIByIAmTimCorey", "FactoryPatternWebAPIByIAmTimCorey\FactoryPatternWebAPIByIAmTimCorey.csproj", "{BF11616A-4946-49BE-9E14-8172C718DD69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPatternWebAPIByIAmTimCorey", "FactoryPatternWebAPIByIAmTimCorey\FactoryPatternWebAPIByIAmTimCorey.csproj", "{BF11616A-4946-49BE-9E14-8172C718DD69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FDPby_compbelltech", "FDPby_compbelltech", "{39E8C5CA-02D5-4C13-9FCF-36E0AEC6B298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDPby_campbelltech", "FDPby_campbelltech\FDPby_campbelltech.csproj", "{5CF54FB8-797E-4234-BFED-25D802CFA363}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +139,10 @@ Global
 		{BF11616A-4946-49BE-9E14-8172C718DD69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF11616A-4946-49BE-9E14-8172C718DD69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF11616A-4946-49BE-9E14-8172C718DD69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF54FB8-797E-4234-BFED-25D802CFA363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF54FB8-797E-4234-BFED-25D802CFA363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF54FB8-797E-4234-BFED-25D802CFA363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF54FB8-797E-4234-BFED-25D802CFA363}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -171,6 +179,8 @@ Global
 		{E64B3482-BCF0-47B0-A8A5-FAE420BEA8C2} = {6FE22606-305B-4AC4-A983-63A9B9385409}
 		{95972696-3F2C-460E-B255-A6FEDA83FC1D} = {E64B3482-BCF0-47B0-A8A5-FAE420BEA8C2}
 		{BF11616A-4946-49BE-9E14-8172C718DD69} = {E64B3482-BCF0-47B0-A8A5-FAE420BEA8C2}
+		{39E8C5CA-02D5-4C13-9FCF-36E0AEC6B298} = {6FE22606-305B-4AC4-A983-63A9B9385409}
+		{5CF54FB8-797E-4234-BFED-25D802CFA363} = {39E8C5CA-02D5-4C13-9FCF-36E0AEC6B298}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CE47711-CCDA-4031-8547-4280B207F242}
