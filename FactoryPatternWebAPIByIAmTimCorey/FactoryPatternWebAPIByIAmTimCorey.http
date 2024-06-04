@@ -1,0 +1,6 @@
+@FactoryPatternWebAPIByIAmTimCorey_HostAddress = http://localhost:5142
+
+GET {{FactoryPatternWebAPIByIAmTimCorey_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
