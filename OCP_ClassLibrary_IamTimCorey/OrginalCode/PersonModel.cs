@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace OCP_ClassLibrary_IamTimCorey.OrginalCode;
+﻿namespace OCP_ClassLibrary_IamTimCorey.OrginalCode;
 
 public class PersonModel
 {
