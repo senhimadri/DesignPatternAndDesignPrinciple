@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "FactoryDesignPatternByGFG": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
