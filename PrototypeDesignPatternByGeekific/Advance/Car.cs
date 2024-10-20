@@ -2,18 +2,20 @@
 
 public class Car : Vehicle
 {
-    private int _topSpeed;
-    private GPSSystem? _gpsSystem;
+    private int topSpeed;
+    private GPSSystem? gpsSystem;
 
-    public Car() 
+    public Car(string? brand , string? model , string? color , int topSpeed ) : base( brand, model, color)
     {
+        this.topSpeed = topSpeed;
+        gpsSystem = new GPSSystem();
     }
 
     public Car(Car car) : base(car)
     {
-        this._topSpeed = car._topSpeed;
+        this.topSpeed = car.topSpeed;
         //this._gpsSystem = car._gpsSystem; // Shallow Copy
-        this._gpsSystem = new GPSSystem(); 
+        this.gpsSystem = new GPSSystem(); 
                         // or.gpsSystem.Clone(); // Deep Copy
 
     }
