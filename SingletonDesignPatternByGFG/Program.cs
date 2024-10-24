@@ -3,4 +3,7 @@ using SingletonDesignPatternByGFG.PrivateConstructor;
 
 Singleton.GetInstance().DoSomething();
 
+NonSingleton aa = new NonSingleton();
+aa.DoSomething();
+
 Console.ReadLine();

@@ -3,6 +3,8 @@
 public class Singleton
 {
 	private static Singleton? instance;
+
+	int counter = 0;
 	private Singleton()
 	{
 		Console.WriteLine("Singleton is Instantiated."); ;
@@ -18,6 +20,19 @@ public class Singleton
 
 	public void DoSomething()
 	{
-		Console.WriteLine("Something is Done.");
+        counter++;
+		Console.WriteLine(counter);
 	}
+}
+
+public class NonSingleton
+{
+
+    int counter = 0;
+
+    public void DoSomething()
+    {
+        counter++;
+        Console.WriteLine(counter);
+    }
 }
