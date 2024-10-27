@@ -14,11 +14,21 @@ public class LegacyPrinter
 }
 
 
-public class PrinterAdopter : LegacyPrinter, IPrinter
+public class PrinterClassAdopter : LegacyPrinter, IPrinter
 {
     public void PrintDocument(string document)
     {
         OldPrint(document);
+    }
+}
+
+public class PrinterObjectAdopter : IPrinter
+{
+    LegacyPrinter printer = new LegacyPrinter();
+
+    public void PrintDocument(string document)
+    {
+        printer.OldPrint(document);
     }
 }
 
