@@ -1,5 +1,4 @@
-﻿
-using BridgeDesignPatternByTutorialsPoint;
+﻿using BridgeDesignPatternByTutorialsPoint.Demonstration;
 
 BridgeDesignPattern.Main();
 
