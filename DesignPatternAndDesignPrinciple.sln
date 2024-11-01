@@ -113,11 +113,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BridgeDesignPattern", "Brid
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BDPbyGFG", "BDPbyGFG", "{23083254-F170-4DAE-9E86-86DE1CAD0A72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeDesignPatternByGFG", "BridgeDesignPatternByGFG\BridgeDesignPatternByGFG.csproj", "{BF14244E-4EFF-4988-9424-878A37F8D918}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeDesignPatternByGFG", "BridgeDesignPatternByGFG\BridgeDesignPatternByGFG.csproj", "{BF14244E-4EFF-4988-9424-878A37F8D918}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BDPbyTutorialsPoint", "BDPbyTutorialsPoint", "{76F24438-FDE0-45E2-B66E-6DD0F3D6C531}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeDesignPatternByTutorialsPoint", "BridgeDesignPatternByTutorialsPoint\BridgeDesignPatternByTutorialsPoint.csproj", "{E1BAD2C8-0395-4491-9058-0FC157866641}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BridgeDesignPatternByTutorialsPoint", "BridgeDesignPatternByTutorialsPoint\BridgeDesignPatternByTutorialsPoint.csproj", "{E1BAD2C8-0395-4491-9058-0FC157866641}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CompositDesignPattern", "CompositDesignPattern", "{BBD6E774-3BBF-4EDE-8F5A-0ADE2946AC36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CDPbyGFG", "CDPbyGFG", "{C1C660DA-A36F-4601-85B1-5542A83BD307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeDesignPatternByGFG", "CompositeDesignPatternByGFG\CompositeDesignPatternByGFG.csproj", "{3D4ED5C7-4C10-464D-98B8-B8E5E0FEDC20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -229,6 +235,10 @@ Global
 		{E1BAD2C8-0395-4491-9058-0FC157866641}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1BAD2C8-0395-4491-9058-0FC157866641}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1BAD2C8-0395-4491-9058-0FC157866641}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4ED5C7-4C10-464D-98B8-B8E5E0FEDC20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4ED5C7-4C10-464D-98B8-B8E5E0FEDC20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4ED5C7-4C10-464D-98B8-B8E5E0FEDC20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4ED5C7-4C10-464D-98B8-B8E5E0FEDC20}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -290,6 +300,9 @@ Global
 		{BF14244E-4EFF-4988-9424-878A37F8D918} = {23083254-F170-4DAE-9E86-86DE1CAD0A72}
 		{76F24438-FDE0-45E2-B66E-6DD0F3D6C531} = {8BD7F670-ACEA-45E8-8C47-E62B209393EE}
 		{E1BAD2C8-0395-4491-9058-0FC157866641} = {76F24438-FDE0-45E2-B66E-6DD0F3D6C531}
+		{BBD6E774-3BBF-4EDE-8F5A-0ADE2946AC36} = {86F0B24C-9776-4B0F-A1B7-9DE878839DC9}
+		{C1C660DA-A36F-4601-85B1-5542A83BD307} = {BBD6E774-3BBF-4EDE-8F5A-0ADE2946AC36}
+		{3D4ED5C7-4C10-464D-98B8-B8E5E0FEDC20} = {C1C660DA-A36F-4601-85B1-5542A83BD307}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CE47711-CCDA-4031-8547-4280B207F242}
