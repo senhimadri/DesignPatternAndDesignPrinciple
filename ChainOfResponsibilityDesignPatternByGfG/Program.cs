@@ -1,5 +1,4 @@
-﻿
-using ChainOfResponsibilityDesignPatternByGfG;
+﻿using ChainOfResponsibilityDesignPatternByGfG;
 
 ChainOfResponsibilityClient.Main();
 
