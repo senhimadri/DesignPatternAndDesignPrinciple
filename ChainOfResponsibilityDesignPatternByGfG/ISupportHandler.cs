@@ -96,7 +96,15 @@ public class ChainOfResponsibilityClient
         level1SupportHandler.SetNextHandler(level2SupportHandler);
         level2SupportHandler.SetNextHandler(level3SupportHandler);
 
+        Request request1 = new Request(Priority.Basic);
+        Request request2 = new Request(Priority.Intermediate);
+        Request request3 = new Request(Priority.Critical);
+        Request request4 = new Request(Priority.Unhandles);
 
+        level1SupportHandler.HandleRequest(request1);
+        level1SupportHandler.HandleRequest(request2);
+        level1SupportHandler.HandleRequest(request3);
+        level1SupportHandler.HandleRequest(request4);
 
     }
 }
