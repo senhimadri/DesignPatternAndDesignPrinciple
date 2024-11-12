@@ -9,6 +9,9 @@
 
   <ItemGroup>
     <Folder Include="AbstractExpression\" />
+    <Folder Include="Client\" />
+    <Folder Include="Context\" />
+    <Folder Include="Interpreter\" />
     <Folder Include="NonterminalExpression\" />
     <Folder Include="TerminalExpression\" />
   </ItemGroup>
