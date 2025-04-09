@@ -171,6 +171,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MDPByGFG", "MDPByGFG", "{2F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediatrDesignPatternByGfG", "C:\Users\hp\source\repos\DesignPattern&DesignPrinciple\MediatrDesignPatternByGfG\MediatrDesignPatternByGfG.csproj", "{2C598CFA-696F-4F3B-822F-C419CD9A88F3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FDP_Exercise", "FDP_Exercise", "{965888BC-915B-4AE0-8092-87FC1CC11051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryDesignPatternExercise", "FactoryDesignPatternExercise\FactoryDesignPatternExercise.csproj", "{27FF8D9B-0927-4385-B59B-8EB42885CB44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -317,6 +321,10 @@ Global
 		{2C598CFA-696F-4F3B-822F-C419CD9A88F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C598CFA-696F-4F3B-822F-C419CD9A88F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C598CFA-696F-4F3B-822F-C419CD9A88F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27FF8D9B-0927-4385-B59B-8EB42885CB44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27FF8D9B-0927-4385-B59B-8EB42885CB44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27FF8D9B-0927-4385-B59B-8EB42885CB44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27FF8D9B-0927-4385-B59B-8EB42885CB44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -404,6 +412,8 @@ Global
 		{08C02297-AE6E-4981-8874-3EE609AC8D61} = {69956FEC-87B4-4A98-937D-04F5E5984BFB}
 		{2F507376-818F-48F3-A182-9C254D6344C1} = {6DB00A2F-93CC-4259-B295-86A3D403B1D1}
 		{2C598CFA-696F-4F3B-822F-C419CD9A88F3} = {2F507376-818F-48F3-A182-9C254D6344C1}
+		{965888BC-915B-4AE0-8092-87FC1CC11051} = {6FE22606-305B-4AC4-A983-63A9B9385409}
+		{27FF8D9B-0927-4385-B59B-8EB42885CB44} = {965888BC-915B-4AE0-8092-87FC1CC11051}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CE47711-CCDA-4031-8547-4280B207F242}
