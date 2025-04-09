@@ -1,69 +1,98 @@
 ﻿namespace FactoryDesignPatternExercise.NotificationFactory;
 
-public interface INotification
+public interface INotification<TRequest>
 {
-    Task SendNotification();
+    Task SendNotification(TRequest request);
 }
 
-public class EmailNotification : INotification
+public class EmailNotification: INotification <EmailNotificationDto>
 {
-    public Task SendNotification()
+    public Task SendNotification(EmailNotificationDto request)
     {
-        Console.WriteLine("Email Notification Sent");
+        Console.WriteLine("Email Notification Sent.");
+        return Task.CompletedTask;
     }
 }
 
-public class PushNotification : INotification
+public class PushNotification : INotification<PushNotificationDto>
 {
-    public Task SendNotification()
+    public Task SendNotification(PushNotificationDto request)
     {
         Console.WriteLine("Push Notification Sent");
+        return Task.CompletedTask;
     }
 }
 
-public class SMSNotification : INotification
+public class SMSNotification : INotification<SmsNotificationDto>
 {
-    public Task SendNotification()
+    public Task SendNotification(SmsNotificationDto request)
     {
         Console.WriteLine("SMS Notification Sent");
+        return Task.CompletedTask;
     }
 }
 
-public interface INotificationFactory
+public interface INotificationFactory<TRequest>
 {
-    INotification CreateNotification();
+    INotification<TRequest> CreateNotification();
 }
 
-public class EmailNotificationFactory : INotificationFactory
+public class EmailNotificationFactory : INotificationFactory<EmailNotificationDto>
 {
-    public INotification CreateNotification() => new EmailNotification();
+    public INotification<EmailNotificationDto> CreateNotification() => new EmailNotification();
 }
 
-public class PushNotificationFactory : INotificationFactory
+public class PushNotificationFactory : INotificationFactory<PushNotificationDto>
 {
-    public INotification CreateNotification() => new PushNotification();
+    public INotification<PushNotificationDto> CreateNotification() => new PushNotification();
 }
 
-public class SmsNotificationFactory : INotificationFactory
+public class SmsNotificationFactory : INotificationFactory<SmsNotificationDto>
 {
-    public INotification CreateNotification() => new SMSNotification();
+    public INotification<SmsNotificationDto> CreateNotification() => new SMSNotification();
 }
 
-public class NotificationService(INotificationFactory factory)
+public class NotificationService<TRequest>(INotificationFactory<TRequest> factory)
 {
-    private INotification notification = factory.CreateNotification();
-    public INotification GetNotification() => notification;
+    private readonly INotification<TRequest> notification = factory.CreateNotification();
+    public INotification<TRequest> GetNotification() => notification;
 }
-
 
 public class Implementation
 {
     public static void Main()
     {
-        INotificationFactory emailNotificationFactory = new EmailNotificationFactory();
-        NotificationService emailNotificationService = new NotificationService(emailNotificationFactory);
-        INotification emailNotification = emailNotificationService.GetNotification();
+        INotificationFactory<EmailNotificationDto> emailNotificationFactory = new EmailNotificationFactory();
+        NotificationService<EmailNotificationDto> emailNotificationService = new NotificationService<EmailNotificationDto>(emailNotificationFactory);
+        INotification<EmailNotificationDto> emailNotification = emailNotificationService.GetNotification();
 
-        emailNotification.SendNotification();
+        var request = new EmailNotificationDto
+        {
+            SenderEmail=""
+        };
+
+        emailNotification.SendNotification(request);
     }
+}
+
+
+public class EmailNotificationDto
+{
+    public string SenderEmail { get; set; } = string.Empty;
+    public string Subject { get; set; } = string.Empty;
+    public List<string>? Cc { get; set; }
+    public string? HtmlBody { get; set; }
+    public byte[]? Attachment { get; set; }
+}
+
+public class PushNotificationDto
+{
+    public string ClientId { get; set; } = string.Empty;
+    public string MessageText { get; set; } = string.Empty;
+}
+
+public class SmsNotificationDto
+{
+    public string PhoneNumber { get; set; } = string.Empty;
+    public string MessageText { get; set; } = string.Empty;
 }
