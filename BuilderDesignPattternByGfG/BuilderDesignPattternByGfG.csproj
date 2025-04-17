@@ -7,10 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="BarcodeGenerator\" />
-    <Folder Include="GarmentsTypeCreator\" />
-    <Folder Include="InvoiceGenerator\" />
-  </ItemGroup>
-
 </Project>
