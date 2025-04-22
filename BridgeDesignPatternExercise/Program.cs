@@ -1,6 +1,6 @@
 ﻿
 using BridgeDesignPatternExercise;
 
-NotificationClassImplementation.Main();
+LoggingServiceImplementation.Main();
 
 Console.ReadLine();
