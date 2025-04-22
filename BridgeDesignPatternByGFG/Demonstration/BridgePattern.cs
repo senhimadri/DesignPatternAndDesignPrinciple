@@ -4,7 +4,7 @@ using BridgeDesignPatternByGFG.RefineAbstraction;
 
 namespace BridgeDesignPatternByGFG.Demonstration;
 
-public class BridgePattern
+public static class BridgePattern
 {
     public static void Main()
     {
