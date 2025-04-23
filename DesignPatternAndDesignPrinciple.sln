@@ -181,6 +181,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesignPatternExercis
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BridgeDesignPatternExercise", "BridgeDesignPatternExercise\BridgeDesignPatternExercise.csproj", "{6E1B01BC-3529-48D3-906E-DF369040BA14}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CDPExercise", "CDPExercise", "{7C190BC0-8425-4FD8-A69F-F35938BE9CEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeDesignPaternExercise", "CompositeDesignPaternExercise\CompositeDesignPaternExercise.csproj", "{D177DCB5-CD39-4CA7-9F7E-D84B27AB32B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -339,6 +343,10 @@ Global
 		{6E1B01BC-3529-48D3-906E-DF369040BA14}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E1B01BC-3529-48D3-906E-DF369040BA14}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E1B01BC-3529-48D3-906E-DF369040BA14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D177DCB5-CD39-4CA7-9F7E-D84B27AB32B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D177DCB5-CD39-4CA7-9F7E-D84B27AB32B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D177DCB5-CD39-4CA7-9F7E-D84B27AB32B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D177DCB5-CD39-4CA7-9F7E-D84B27AB32B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -431,6 +439,8 @@ Global
 		{9C6B277E-EDBE-429C-A366-66F215EE670C} = {5F27C6FB-8EB0-4DEF-B648-0E3E443E4288}
 		{E356C760-5BE5-4E2B-83F8-636BD33749E7} = {9C6B277E-EDBE-429C-A366-66F215EE670C}
 		{6E1B01BC-3529-48D3-906E-DF369040BA14} = {23083254-F170-4DAE-9E86-86DE1CAD0A72}
+		{7C190BC0-8425-4FD8-A69F-F35938BE9CEF} = {BBD6E774-3BBF-4EDE-8F5A-0ADE2946AC36}
+		{D177DCB5-CD39-4CA7-9F7E-D84B27AB32B1} = {7C190BC0-8425-4FD8-A69F-F35938BE9CEF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CE47711-CCDA-4031-8547-4280B207F242}
