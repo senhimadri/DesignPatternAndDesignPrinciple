@@ -185,6 +185,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CDPExercise", "CDPExercise"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeDesignPaternExercise", "CompositeDesignPaternExercise\CompositeDesignPaternExercise.csproj", "{D177DCB5-CD39-4CA7-9F7E-D84B27AB32B1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDPExercise", "DDPExercise", "{63CB999A-A511-4459-B791-93FCF471A19A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorDesignPatternExercise", "DecoratorDesignPatternExercise\DecoratorDesignPatternExercise.csproj", "{AE026033-D387-4FB2-9ED7-7FA77FBF5495}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -347,6 +351,10 @@ Global
 		{D177DCB5-CD39-4CA7-9F7E-D84B27AB32B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D177DCB5-CD39-4CA7-9F7E-D84B27AB32B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D177DCB5-CD39-4CA7-9F7E-D84B27AB32B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE026033-D387-4FB2-9ED7-7FA77FBF5495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE026033-D387-4FB2-9ED7-7FA77FBF5495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE026033-D387-4FB2-9ED7-7FA77FBF5495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE026033-D387-4FB2-9ED7-7FA77FBF5495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -441,6 +449,8 @@ Global
 		{6E1B01BC-3529-48D3-906E-DF369040BA14} = {23083254-F170-4DAE-9E86-86DE1CAD0A72}
 		{7C190BC0-8425-4FD8-A69F-F35938BE9CEF} = {BBD6E774-3BBF-4EDE-8F5A-0ADE2946AC36}
 		{D177DCB5-CD39-4CA7-9F7E-D84B27AB32B1} = {7C190BC0-8425-4FD8-A69F-F35938BE9CEF}
+		{63CB999A-A511-4459-B791-93FCF471A19A} = {25E828AA-54DB-4047-859C-473698FD7073}
+		{AE026033-D387-4FB2-9ED7-7FA77FBF5495} = {63CB999A-A511-4459-B791-93FCF471A19A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4CE47711-CCDA-4031-8547-4280B207F242}
