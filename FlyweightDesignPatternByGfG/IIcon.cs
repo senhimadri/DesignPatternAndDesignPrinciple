@@ -7,8 +7,8 @@ public interface IIcon
 
 public class FileIcon : IIcon
 {
-    private string type;
-    private Image image;    
+    private readonly string type;
+    private readonly Image image;    
 
     public FileIcon(string type, Image image)
     {
@@ -76,6 +76,12 @@ public class IconFactory
     }
 }
 
+public class NewClass
+{
+    public string? Name { get; set; }
+    public string? StaaticString { get; set; }
+
+}
 
 public class Client
 {
